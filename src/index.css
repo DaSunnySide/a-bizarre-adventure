@@ -1,14 +1,212 @@
+html {
+  font-family: source-code-pro, Georgia, "Georgia",
+    monospace;
+    text-shadow: -1px 1px #ffffff;
+    font-size: 2vh;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #ffffff;
+  background-color: #141414;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Georgia, "Georgia",
     monospace;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.App {
+  text-align: center;
+  background-position: center;
+  font-family: Georgia;
+}
+
+.navigation {
+  padding: 2vh;
+  margin: 2vh;
+  flex-direction: column;
+  border-color: #ffffff;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: groove;
+}
+
+.navigation ul {
+  display: block;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  padding: 1vh;
+}
+
+.navigation li {
+  padding: 1vh 1vh 1vh 1vh;
+  font-size: 6vh;
+  text-align: center;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+}
+
+.navigation li:hover {
+  background-color: #141414;
+  color: #ffffff;
+  border-top: 2px;
+  border-bottom: 2px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: #ffffff;
+  border-style: groove;
+  text-shadow: -1px 1px #111111;
+}
+
+.form {
+  background-color: inherit;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5vh;
+}
+
+.form input {
+  margin: 2vh;
+  background-color: #141414;
+  color: #ffffff;
+  font-size: 6vh;
+  min-width: 95%;
+  min-height: 8vh;
+  text-align: center;
+  padding: 3vh;
+  border-top: 2px;
+  border-bottom: 2px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: #ffffff;
+  border-style: groove;
+}
+
+.form button {
+  font-size: 4vh;
+  margin-top: 5vh;
+  background-color: #141414;
+  color: inherit;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  min-height: 5vh;
+  border-color: #ffffff;
+}
+
+.PasswordForgetPage {
+  margin: 2vh;
+  background-color: #141414;
+  color: #ffffff;
+  font-size: 6vh;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.forgotPassword {
+  margin: 2vh;
+  background-color: #141414;
+  color: #ffffff;
+  font-size: 6vh;
+  text-align: center;
+  padding: 3vh;
+  border-top: 2px;
+  border-bottom: 2px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: #ffffff;
+  border-style: groove;
+}
+
+.forgotPassword input {
+  width: 80%;
+  min-height: 20%;
+  font-size: 8vh;
+  background-color: #141414;
+  color: #ffffff;
+}
+
+.forgotPassword button {
+  margin-left: 4vh;
+  height: 20%;
+  min-height: 20%;
+  width: inherit;
+  background-color: #141414;
+  color: #ffffff;
+  border: none;
+  font-size: 8vh;
+}
+
+.forgotPassword button:hover {
+  background-color: #ffffff;
+  color: #141414;
+  border: none;
+  text-size: 8vh;
+}
+
+.story {
+  align-items: center;
+  align-self: center;
+  flex-direction: column;
+  padding: 2vh 1vh 2vh 1vh;
+  font-size: calc(2px + 3vh);
+  background-color: #141414;
+  margin: 4vh;
+  text-decoration: none;
+}
+
+.choices {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.choices button {
+  padding: 5vh;
+  background-color: #141414;
+  color: #ffffff;
+  width: 25%;
+  min-height: 25%;
+  font-size: 4vh;
+  justify-content: center;
+  margin: 4vh;
+  border: none;
+  border-radius: 3vh;
+  margin-bottom: 50vh;
+}
+
+.choices button:hover {
+  cursor: grab;
+  color: #141414;
+  background-color: #ffffff;
+
+}
+
+.pageContent {
+  text-align: center;
+  font-family: Georgia;
+  color: inherit;
+  background-color: inherit;
 }

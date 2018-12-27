@@ -1,0 +1,57 @@
+{
+  "title" : "A Bizarre Adventure",
+  "StartingChapter" : "1000000",
+  "Chapters" : {
+    "1000000": {
+      "content" : "You close your eyes for a moment, and when you open them, you are surprised to find yourself in a strange room with no lights, and no furnishings to speak of. Startled, you look for a way out. After stumbling around for a few minutes, you ascertain that there really is nothing here, and the room serves no apparent purpose. Despite this, an archaic door bearing signs of serious wear stands in front of you. Intrigued, you examine it closely, but cannot tell what it's made of. Wood? Marble? Steel? No matter how long you stare at it, its details just seem to elude you. After thinking for sometime, you decide that there's only one way forward, and whichever way it goes, it's certainly better than sitting around forever in this room. What do you do?",
+      "choices" : [
+        {
+        "text" : "The door looks sketchy, and there's no saying where it goes. I'm better off looking for another way.",
+        "nextId" : "1100000"
+      },
+      {
+        "text" : "Well I might as well see where it goes. Open the door!",
+        "nextId" : "1200000"
+      },
+      {
+        "text" : "I'll just wait; I'm not going anywhere.",
+        "nextId" : "1300000"
+      }
+    ]
+    },
+    "1100000" : {
+        "content" : "Before you start your search, you realize how dark the room is. In fact, you can't see anything at all, aside from the ominous door. So you decide to start there. You move beside the door, crawling on hands and knees to avoid walking into anything. You don't even know what you're looking for, but that doesn't stop you. Your determination to go any other way than through that door spurs you on, as your hand grasp around on the floor for any hint to lead you to another way. But there's nothing. And as you move further to the side of the door, your eyes seem to be playing tricks on you. You've been searching for a while now, and the door is still right there. Is it a trick of the light? Or the lack of light rather? You keep searching farther from the door, and you realize how tight the room is. There's no walls, but the endless space goes on and on and on and on. Forever. It's just you, alone in the endless expanse of a room, and the door. You feel yourself sweating, and your heart racing desperately in your chest. But it doesn't matter, because there's just no where to go. Dread sets in, and you accept that there is truly nothing else here. You turn around behind you to head back, and find that at least you're spared from a long crawl, because the door is right in front of your nose.",
+        "choices" : [
+          {
+          "text" : "I can't give up. Keep searching for another way!",
+          "nextId" : "1110000"
+        },
+        {
+          "text" : "Well, I guess my path is set then. I open the door.",
+          "nextId" : "1120000"
+        },
+        {
+          "text" : "I'm too tired to go on. I'll just lay here for a minute.",
+          "nextId" : "1130000"
+        }
+      ]
+      },
+      "1200000" : {
+        "content" : "You cautiously open the door, not sure what to expect on the other side. The door swings open, and you notice a sharp contrast to the room you currently stand in. The next room is full of a thick fog that obscures the landscape. As you step through the threshold, the fog clears, and you suddenly find you are standing on a path. You follow the path for some time, peering into the fog as you go. You notice if you focus on any one area for too long, the fog parts, revealing familiar places and figures wandering about in the distance. You walk for what feels like days, just looking at the passing figures in the fog. Eventually, you come to a fork in the road, where your path splits into three directions. To the left, the path immediately turns to a set of stone stairs, that wind enigmatically through the fog going who-knows-where. The middle road is covered with a sandy silt that feels warm beneath your feet. The path stretches on as far as you can see, but there doesn't appear to be much there. Looking to either side of the middle road, it looks like you can see for miles, but all you see is barren landscape. Before making your decision, you turn quickly to the last path, which is completely dark. Looking down the road, you feel a breeze rolling in, and it brings to mind the scent of ocean water and thoughts of quiet nights at home. But you can't see where it goes, and even the path itself is hard to see. You spend a short while just gazing at the road, trying to fathom where it leads to no avail.   All of a sudden, you want to go back. But when you turn around, you find the road behind you is the same as the road forward. So you plop down at the crossroads, lost in thought. Where do you go?",
+        "choices" : [
+          {
+          "text" : "***********",
+          "nextId" : "1210000"
+        },
+        {
+          "text" : "*************",
+          "nextId" : "1220000"
+        },
+        {
+          "text" : "*************",
+          "nextId" : "1230000"
+        }
+      ]
+      }
+}
+}
