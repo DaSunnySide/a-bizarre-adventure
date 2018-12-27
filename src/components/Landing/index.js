@@ -39,8 +39,8 @@ class Landing extends Component {
 
             return (
               <ChoiceButton
-              key={nextId}
-                handleClick={() => { this.handleClick(nextId); }}
+                key={nextId}
+                onClick={() => this.handleClick(nextId) }
                 buttonText={text}
               />
             );
