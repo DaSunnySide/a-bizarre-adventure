@@ -1,57 +1,834 @@
 {
-  "title" : "A Bizarre Adventure",
+  "title" : "The Sunny Side Photo Gallery",
   "StartingChapter" : "1000000",
   "Chapters" : {
     "1000000": {
-      "content" : "You close your eyes for a moment, and when you open them, you are surprised to find yourself in a strange room with no lights, and no furnishings to speak of. Startled, you look for a way out. After stumbling around for a few minutes, you ascertain that there really is nothing here, and the room serves no apparent purpose. Despite this, an archaic door bearing signs of serious wear stands in front of you. Intrigued, you examine it closely, but cannot tell what it's made of. Wood? Marble? Steel? No matter how long you stare at it, its details just seem to elude you. After thinking for sometime, you decide that there's only one way forward, and whichever way it goes, it's certainly better than sitting around forever in this room. What do you do?",
+      "content" : "Sunny Side Photo Album \n\n ",
       "choices" : [
         {
-        "text" : "The door looks sketchy, and there's no saying where it goes. I'm better off looking for another way.",
+        "text" : "Enter the gallery!",
         "nextId" : "1100000"
-      },
-      {
-        "text" : "Well I might as well see where it goes. Open the door!",
-        "nextId" : "1200000"
-      },
-      {
-        "text" : "I'll just wait; I'm not going anywhere.",
-        "nextId" : "1300000"
       }
-    ]
+    ],
+    "image" : "AZ Style Sunset.JPG"
     },
     "1100000" : {
-        "content" : "Before you start your search, you realize how dark the room is. In fact, you can't see anything at all, aside from the ominous door. So you decide to start there. You move beside the door, crawling on hands and knees to avoid walking into anything. You don't even know what you're looking for, but that doesn't stop you. Your determination to go any other way than through that door spurs you on, as your hand grasp around on the floor for any hint to lead you to another way. But there's nothing. And as you move further to the side of the door, your eyes seem to be playing tricks on you. You've been searching for a while now, and the door is still right there. Is it a trick of the light? Or the lack of light rather? You keep searching farther from the door, and you realize how tight the room is. There's no walls, but the endless space goes on and on and on and on. Forever. It's just you, alone in the endless expanse of a room, and the door. You feel yourself sweating, and your heart racing desperately in your chest. But it doesn't matter, because there's just no where to go. Dread sets in, and you accept that there is truly nothing else here. You turn around behind you to head back, and find that at least you're spared from a long crawl, because the door is right in front of your nose.",
+        "content" : "Taken from a bridge over a river in TaiBei most famous for its daily feature of the 'MotorCycle Waterfall', this photo overlooks one of the smaller districts in the TaiBei downtown.",
         "choices" : [
           {
-          "text" : "I can't give up. Keep searching for another way!",
+          "text" : "Let's see more of the city!",
           "nextId" : "1110000"
         },
         {
-          "text" : "Well, I guess my path is set then. I open the door.",
+          "text" : "Show me some of that TaiWan suburbia.",
           "nextId" : "1120000"
         },
         {
-          "text" : "I'm too tired to go on. I'll just lay here for a minute.",
+          "text" : "How about some wild life instead?",
           "nextId" : "1130000"
         }
-      ]
+      ],
+      "image" : "A City In Sunset.JPG"
       },
-      "1200000" : {
-        "content" : "You cautiously open the door, not sure what to expect on the other side. The door swings open, and you notice a sharp contrast to the room you currently stand in. The next room is full of a thick fog that obscures the landscape. As you step through the threshold, the fog clears, and you suddenly find you are standing on a path. You follow the path for some time, peering into the fog as you go. You notice if you focus on any one area for too long, the fog parts, revealing familiar places and figures wandering about in the distance. You walk for what feels like days, just looking at the passing figures in the fog. Eventually, you come to a fork in the road, where your path splits into three directions. To the left, the path immediately turns to a set of stone stairs, that wind enigmatically through the fog going who-knows-where. The middle road is covered with a sandy silt that feels warm beneath your feet. The path stretches on as far as you can see, but there doesn't appear to be much there. Looking to either side of the middle road, it looks like you can see for miles, but all you see is barren landscape. Before making your decision, you turn quickly to the last path, which is completely dark. Looking down the road, you feel a breeze rolling in, and it brings to mind the scent of ocean water and thoughts of quiet nights at home. But you can't see where it goes, and even the path itself is hard to see. You spend a short while just gazing at the road, trying to fathom where it leads to no avail.   All of a sudden, you want to go back. But when you turn around, you find the road behind you is the same as the road forward. So you plop down at the crossroads, lost in thought. Where do you go?",
+
+      "1110000" : {
+        "content" : "Before you look any more at the city, make sure you follow the house rules! \n\n This sign shows some of the importance of knowing what you're communicating, understanding your target audience, and most importantly, understanding the cultural differences in client bases, because sometimes it’s easy for stuff to get lost in translation!",
         "choices" : [
           {
-          "text" : "***********",
-          "nextId" : "1210000"
+          "text" : "I'm in for a laugh. Show me some more signs!",
+          "nextId" : "11110000"
         },
         {
-          "text" : "*************",
-          "nextId" : "1220000"
+          "text" : "Rules noted. I'll make sure not to spit at anything I see, and I don't have a flash lamp anyways; I'm also the quictest of folk, so all rules will be followed!",
+          "nextId" : "1112000"
         },
         {
-          "text" : "*************",
-          "nextId" : "1230000"
+          "text" : "This is too much. Take me outta here!",
+          "nextId" : "1120000"
         }
-      ]
+      ],
+      "image" : "On Respecting the Rules.JPG"
+    },
+
+    "1112000" : {
+      "content" : "A quick glimpse of TaiBei's beautiful downtown scenery.",
+      "choices" : [
+        {
+        "text" : "Go towards that tower in the background.",
+        "nextId" : "1112100"
+      },
+      {
+        "text" : "Stroll around the city for a bit.",
+        "nextId" : "1112200"
+      },
+      {
+        "text" : "What do the plants look like in a city this big?",
+        "nextId" : "1112230"
       }
+    ],
+    "image" : "fork in the road.JPG"
+  },
+    "1112100" : {
+      "content" : "As you're walking up to the tower, you'll probably notice this peculiar building...",
+      "choices" : [
+        {
+        "text" : "Ok. Now let's get to the tower.",
+        "nextId" : "1112110"
+      },
+      {
+        "text" : "I'd like to see some more weird buildings!",
+        "nextId" : "1112120"
+      },
+      {
+        "text" : "What's the city look like at night?",
+        "nextId" : "1310000"
+      }
+    ],
+    "image" : "IMG_0657.jpg"
+  },
+    "1112110" : {
+      "content" : "Also lovingly referred to as the To-Go Box tower, architects constructed the TaiBei 101 to look like stacks of ancient money boxes.",
+      "choices" : [
+        {
+        "text" : "Let's head to the top!",
+        "nextId" : "11110000"
+      },
+      {
+        "text" : "I'm tired of the city. Let's see some wild life.",
+        "nextId" : "1130000"
+      },
+      {
+        "text" : "Let's see another part of TaiBei.",
+        "nextId" : "1112133"
+      }
+    ],
+    "image" : "101.JPG"
+  },
+      "1112120" : {
+        "content" : "This smiley face-looking shopping mall is home to one of TaiWan's largest tech centers!",
+        "choices" : [
+          {
+          "text" : "Cool! What about more suburban architecture?",
+          "nextId" : "1320000"
+        },
+        {
+          "text" : "Show me some animal life",
+          "nextId" : "1222100"
+        },
+        {
+          "text" : "I'd like to see more of the city.",
+          "nextId" : "1112200"
+        }
+      ],
+      "image" : "IMG_0684.jpg"
+    },
+    "1112200" : {
+      "content" : "In recent years, bikes and mopeds have become extremely popular in TaiWan. In fact, they are so commonly used, that there is a traffic phenomenon known as the 'Motor-cycle waterfall' that is so well known that it attracts tourists from other countries.",
+      "choices" : [
+        {
+        "text" : "Show me more bikes!",
+        "nextId" : "1112210"
+      },
+      {
+        "text" : "Is it just me, or is it starting to get dark?",
+        "nextId" : "1112220"
+      },
+      {
+        "text" : "Let's head back to the suburbs.",
+        "nextId" : "1112230"
+      }
+    ],
+    "image" : "IMG_0189.JPG"
+  },
+    "1112210" : {
+      "content" : "More bikes!",
+      "choices" : [
+        {
+        "text" : "Let's see other modes of transportation",
+        "nextId" : "1112211"
+      },
+      {
+        "text" : "I want to see somewhere new. How about another Pacific Island?",
+        "nextId" : "4"
+      },
+      {
+        "text" : "I'd like to see some plant life.",
+        "nextId" : "1112230"
+      }
+    ],
+    "image" : "ZiXingChe.JPG"
+  },
+    "1112211" : {
+      "content" : "A TaiWanese victory train!",
+      "choices" : [
+        {
+        "text" : "Follow the train.",
+        "nextId" : "1211200"
+      },
+      {
+        "text" : "Take me somewhere warm.",
+        "nextId" : "4"
+      },
+      {
+        "text" : "Let's get some food!",
+        "nextId" : "11122312"
+      }
+    ],
+    "image" : "IMG_1258.JPG"
+  },
+    "1112220" : {
+      "content" : "It does look like it's getting dark. Maybe this would be a good time to check out the famous night markets?",
+      "choices" : [
+        {
+        "text" : "Sounds good, let's go shopping!",
+        "nextId" : "1112221"
+      },
+      {
+        "text" : "I'd rather see somewhere quieter.",
+        "nextId" : "42"
+      },
+      {
+        "text" : "Let's go to McDonalds!",
+        "nextId" : "11122312"
+      }
+    ],
+    "image" : "IMG_0786.JPG"
+  },
+    "1112230" : {
+      "content" : "Here's a plant found growing in DanShui.",
+      "choices" : [
+        {
+        "text" : "Show me another!",
+        "nextId" : "1112231"
+      },
+      {
+        "text" : "Show me plants from somewhere else.",
+        "nextId" : "41"
+      }
+    ],
+      "image" : "IMG_0338.jpg"
+      },
+      "1112231" : {
+        "content" : "Here's another flower from TaiWan",
+        "choices" : [
+          {
+          "text" : "I'm hungry. Let's get some food!",
+          "nextId" : "111223121"
+        },
+        {
+          "text" : "I still want to see more flowers.",
+          "nextId" : "11122312"
+        }
+      ],
+      "image" : "IMG_0149.JPG"
+    },
+    "11122312" : {
+      "content" : "Some lillies found near a temple in TaiWan",
+      "choices" : [
+        {
+        "text" : "Where's the nearest McDonald's?",
+        "nextId" : "111223121"
+      },
+      {
+        "text" : "Show me more flowers!",
+        "nextId" : "41"
+      }
+    ],
+    "image" : "lillies.JPG"
+  },
+  "111223121" : {
+    "content" : "It might not be a McDonald's, but at least they have... ice cream sanwhiches!",
+    "choices" : [
+      {
+      "text" : "Thanks for the tour, but I'm done looking around for now.",
+      "nextId" : "9"
+    },
+    {
+      "text" : "I wanna see some animals.",
+      "nextId" : "1130000"
+    },
+    {
+      "text" : "I want to see more of DanShui",
+      "nextId" : "1112200"
+    }
+  ],
+  "image" : "IceCreamSandwhich.JPG"
+},
+    "1120000" : {
+      "content" : "Taken at DanJiang University in DanShui, one of the many higher level educational institutes scatered across the suburbs of TaiWan. DanJiang University is located just a five minute walk from TaiWain's gorgeous waterline, and a ten minute train ride away from the famous ShiLin night market.",
+
+      "choices" : [
+        {
+        "text" : "What's a night market?",
+        "nextId" : "1310000"
+      },
+        {
+        "text" : "I'm ready to see some of the Pacific coastline!",
+        "nextId" : "1320000"
+      },
+        {
+        "text" : "Hold on a second. Isn't there more to see in DanShui?",
+        "nextId" : "1122300"
+      }
+    ],
+      "image" : "IMG_0147.jpg"
+    },
+    "1320000" : {
+      "content" : "A view of the stormy coast from the edge of the DanJian University campus",
+
+      "choices" : [
+        {
+        "text" : "I'd like to see the coast on a clear day.",
+        "nextId" : "1211200"
+      },
+        {
+        "text" : "I'd like to see another coast.",
+        "nextId" : "4"
+      }
+    ],
+      "image" : "IMG_0093.JPG"
+    },
+      "11110000" : {
+        "content" : "Some stellar advice found on the 88th floor of the TaiBei 101.",
+        "choices" : [
+          {
+            "text" : "The view's amazing. While we're here, can I look around a bit?",
+            "nextId" : "1211000"
+          },
+          {
+            "text" : "I'm not a fan of heights. Take be back down to ground level please!",
+            "nextId" : "1212000"
+          },
+          {
+            "text" : "This place is an architectural marvel. What's the inside look like?",
+            "nextId" : "1213000"
+          }
+        ],
+        "image" : "Jumper.JPG"
+      },
+      "1130000" : {
+        "content" : "A furry winged critter found in the TaiBei Zoo. Probably not what you were thinking when you saw 'wild-life' though?",
+        "choices" : [
+          {
+            "text" : "I think it's cute. Let's see another!",
+            "nextId" : "1122100"
+          },
+          {
+            "text" : "Yeah, I'm not particular, but I was expecting something that at least fits into the Animal Kingdom...",
+            "nextId" : "1122200"
+          },
+          {
+            "text" : "Ewww. I'm so done with this. Take me back to the city!",
+            "nextId" : "1110000"
+          }
+        ],
+        "image" : "IMG_1322.JPG"
+      },
+      "1122100" : {
+        "content" : "Here you can see one of the wide variety of animals living at the TaiBei zoo, one of the largest in Asia.",
+        "choices" : [
+          {
+            "text" : "What other kinds of animals live there?",
+            "nextId" : "1122110"
+          },
+          {
+            "text" : "Enough of the Animal life. Let's see some plants!",
+            "nextId" : "1112230"
+          },
+          {
+            "text" : "I'd like to see some other attractions the zoo has.",
+            "nextId" : "1122130"
+          }
+        ],
+        "image" : "IMG_1328.jpg"
+      },
+      "1122110" : {
+        "content" : "Between two elephants and a tree stump, do you think this counts as a full pic, or the... 'truncated' version of it?",
+        "choices" : [
+          {
+            "text" : "I'm here for pictures, not poor puns. Let's see more animals.",
+            "nextId" : "1122111"
+          },
+          {
+            "text" : "Alright, I'm out. I'm going as far away from these jokes as I can.",
+            "nextId" : "4"
+          },
+          {
+            "text" : "I'm feeling a sudden urge to go shopping.",
+            "nextId" : "1310000"
+          }
+        ],
+        "image" : "IMG_1372.jpg"
+      },
+      "1310000" : {
+        "content" : "This is without a doubt the liveliest shopping center I've ever been to. Aside from hundreds of small stores and outlets, plethoras of vendors bring hand made items to sell on the street, where you'll easily find whatever mouth-watering food, stylish clothes, or random knick-knacks you could ever possibly want. One of my favorite memories of TaiWan was just wandering around the Night Market for hours, browsing through the endless streets full of stores.",
+        "choices" : [
+          {
+            "text" : "What kind of food do the vendors have?",
+            "nextId" : "1122111"
+          },
+          {
+            "text" : "I'd like to see a sunset.",
+            "nextId" : "4"
+          },
+          {
+            "text" : "I want to see the downtown.",
+            "nextId" : "1112200"
+          }
+        ],
+        "image" : "IMG_1044.JPG"
+      },
+      "1122111" : {
+        "content" : "The vendors have line after line of home made and freshly cooked food.",
+        "choices" : [
+          {
+            "text" : "More food!",
+            "nextId" : "11221111"
+          },
+          {
+            "text" : "I'd like to see other places now.",
+            "nextId" : "4"
+          },
+          {
+            "text" : "I'd like to look at the flora around here.",
+            "nextId" : "1112230"
+          }
+        ],
+        "image" : "IMG_1049.JPG"
+      },
+      "11221111" : {
+        "content" : "Here's some more of the fine fresh food available at the markets.",
+        "choices" : [
+          {
+            "text" : "Take me to the downtown.",
+            "nextId" : "112211111"
+          },
+          {
+            "text" : "What do the animals look like around here?",
+            "nextId" : "1130000"
+          },
+          {
+            "text" : "I'd like to see the coast.",
+            "nextId" : "1320000"
+          }
+        ],
+        "image" : "IMG_1050.JPG"
+      },
+      "112211111" : {
+        "content" : "Another glimpse of TaiBei's busy downtown.",
+        "choices" : [
+          {
+            "text" : "I've been waiting a while to see a sunset.",
+            "nextId" : "6"
+          },
+          {
+            "text" : "I think I'm done looking at photos for now. Thanks!",
+            "nextId" : "9"
+          }
+        ],
+        "image" : "IMG_0795.JPG"
+      },
+      "1122200" : {
+        "content" : "Found in a pond at DanJiang University, these Rock Doggos can be seen making the most of the warm TaiWan sunshine. ",
+        "choices" : [
+          {
+            "text" : "Still looking for something a little less... scaly.",
+            "nextId" : "1222100"
+          },
+          {
+            "text" : "I'm done looking at animals. What kind of other scenery you got around here?",
+            "nextId" : "1112000"
+          },
+          {
+            "text" : "I've spent a good while looking around the college. What's the outside of the college look like?",
+            "nextId" : "1222300"
+          }
+        ],
+        "image" : "RockDoggo.JPG"
+      },
+      "1222100" : {
+        "content" : "Technically doesn't have scales!",
+        "choices" : [
+          {
+            "text" : "Show me a real animal.",
+            "nextId" : "1122110"
+          },
+          {
+            "text" : "I'd like to go downtown.",
+            "nextId" : "1211000"
+          },
+          {
+            "text" : "Take me somewhere new.",
+            "nextId" : "4"
+          }
+        ],
+        "image" : "winged critter.JPG"
+      },
+      "1122300" : {
+        "content" : "The suburbs are a busy place during the week! Just outside the university, countless students are all roaming around, shopping, picking up food, or just enjoying the city life.",
+        "choices" : [
+          {
+            "text" : "Just how big are these suburbs anyway?",
+            "nextId" : "1122320"
+          },
+          {
+            "text" : "I'm not digging these crowds. Let's go back in to the college.",
+            "nextId" : "1122310"
+          }
+        ],
+        "image" : "1222300.jpg"
+      },
+      "1122320" : {
+        "content" : "The high rises in this quiet suburb stretch on forever in every direction",
+        "choices" : [
+          {
+            "text" : "If these are the suburbs, what's the downtown look like?",
+            "nextId" : "1211000"
+          },
+          {
+            "text" : "Let's walk through the suburbs for a bit.",
+            "nextId" : "1122322"
+          },
+          {
+            "text" : "I'd like to see a sunset.",
+            "nextId" : "39"
+          }
+        ],
+        "image" : "Life in the Suburbs.JPG"
+      },
+      "1122322" : {
+        "content" : "A quiet park in the city.",
+        "choices" : [
+          {
+            "text" : "I'm tired of looking at rain. Show me some clear skies.",
+            "nextId" : "6"
+          },
+          {
+            "text" : "Let's head to the train station.",
+            "nextId" : "1211200"
+          }
+        ],
+        "image" : "IMG_0294.JPG"
+      },
+      "1122310" : {
+        "content" : "A quiet grove in the DanJiang University campus",
+        "choices" : [
+          {
+            "text" : "Let's keep exploring the college",
+            "nextId" : "1122311"
+          },
+          {
+            "text" : "I bet this place has some cool plants.",
+            "nextId" : "1112230"
+          }
+        ],
+        "image" : "grove.JPG"
+      },
+      "1122311" : {
+        "content" : "A quiet road with lanterns in the style of ancient Chinese architecture.",
+        "choices" : [
+          {
+            "text" : "Where does this road go?",
+            "nextId" : "11223111"
+          },
+          {
+            "text" : "I feel like I've seen enough of DanShui. What's the coastline like?",
+            "nextId" : "11223112"
+          }
+        ],
+        "image" : "IMG_0134.JPG"
+      },
+      "11223111" : {
+        "content" : "A fork in the road",
+        "choices" : [
+          {
+            "text" : "I'm ready to see some wild life. Let's go to the zoo!",
+            "nextId" : "1130000"
+          },
+          {
+            "text" : "Take me somewhere new. I'm ready for a drastic change of scenery.",
+            "nextId" : "4"
+          }
+        ],
+        "image" : "IMG_0138.JPG"
+      },
+      "1213000" : {
+        "content" : "This giant ball of steel within the TaiBei 101 serves as a damper to protect the building from high wind and earthquakes.",
+        "choices" : [
+          {
+            "text" : "Cool! That's enough for me. Now let's see something more lively!",
+            "nextId" : "1122100"
+          },
+          {
+            "text" : "I heard the TaiBei 101 has a pretty gnarly mall...",
+            "nextId" : "1213200"
+          }
+        ],
+        "image" : "IMG_0513.JPG"
+      },
+      "1213200" : {
+        "content" : "That's right! The TaiBei 101 is home to a five story shopping mall that is directly adjacent to the tower. Myriad fashion and design stores can be found on the upper levels, while an expansive food court is located below. Parking is also available on the lowest levels for those with personal transportation.",
+        "choices" : [
+          {
+            "text" : "This talk of food courts has me feeling hungry. Let's head downstairs.",
+            "nextId" : "1213210"
+          },
+          {
+            "text" : "I'm ready to head to DanShui. Show me what it's got!",
+            "nextId" : "1120000"
+          }
+        ],
+        "image" : "IMG_0639.JPG"
+      },
+      "1213210" : {
+        "content" : "A glorious Big Mac, courteous of the TaiBei 101 McDonalds. As you can see from the image, the quality at this franchise is beyond exquisite. Note the perfect tecture on the bun, the righteous stacking of the patty. (Although you can't see it from the picture, I assure you, the taste was absolutely perfect. Here is my experience with it: After sitting down to enjoy my Big Mac with several friends, the first thing I noticed was the savory smell of the burger. Strong, noticeable, and yet not overwhelming. The aroma of McDonald's secret sauce, mixed with just a hint of relish and fresh fried patty left my mouth watering. As I picked up the burger, I noticed the flawless condition of the stack; it made me aware of just how much love must have gone into the construction of the burger so plainly sitting before me. My first bite of the burger confirmed all of my initial impressions. A rush of flavor unlike any I've ever experienced at any other McDonalds overwhelmed me, and I proceeded to ravenously devour my burger in silence, thoroughly enjoying the best Big Mac I've ever had. If you ever find yourself in the vicinity of TaiWan, I highly recommend swinging by the 101's food court just to sample this McDonalds.",
+        "choices" : [
+          {
+            "text" : "I think we got distracted. What about the view from the tower?.",
+            "nextId" : "1211000"
+          },
+          {
+            "text" : "What are city plants like?",
+            "nextId" : "1112230"
+          },
+          {
+            "text" : "How does TaiWan look compared to other islands?",
+            "nextId" : "4"
+          }
+        ],
+        "image" : "IMG_0636.JPG"
+      },
+      "1211000" : {
+        "content" : "Here, you can see a small portion of the sprawling megatropolis that is TaiBei. It also showcases one of my favorite things about TaiBei. Can you guess what it is?",
+        "choices" : [
+          {
+            "text" : "Show me more of this city!",
+            "nextId" : "1211100"
+          },
+          {
+            "text" : "I'd like to see some more river scenery, but maybe up closer.",
+            "nextId" : "1211200"
+          }
+        ],
+        "image" : "IMG_0434.JPG"
+      },
+      "1211100" : {
+        "content" : "As you can see, the city goes on pretty much forever.",
+        "choices" : [
+          {
+            "text" : "How about a shot from another angle?",
+            "nextId" : "1211110"
+          },
+          {
+            "text" : "Does a city like this even have room for plants?",
+            "nextId" : "1112230"
+          },
+          {
+            "text" : "Enough of giant cities. Take me somewhere I can get away from the hullabaloo.",
+            "nextId" : "4"
+          }
+        ],
+        "image" : "IMG_0410.JPG"
+      },
+      "1211200" : {
+        "content" : "The railway in TaiBei runs next to the river for a large portion of the ride, making for a beautiful route. ",
+        "choices" : [
+          {
+            "text" : "Show me more of these trains.",
+            "nextId" : "1211210"
+          },
+          {
+            "text" : "What other transportation do people use here?",
+            "nextId" : "42"
+          }
+        ],
+        "image" : "IMG_0380.JPG"
+      },
+      "1211210" : {
+        "content" : "The trains are probably the most convenient transportation in TaiBei, but that also means they tend to get a little bit on the crowded side. ",
+        "choices" : [
+          {
+            "text" : "Take me away from these crowds.",
+            "nextId" : "1211211"
+          },
+          {
+            "text" : "Take me somewhere else crowded!",
+            "nextId" : "1122300"
+          },
+          {
+            "text" : "Show me a sunset!",
+            "nextId" : "1122300"
+          }
+        ],
+        "image" : "IMG_0722.JPG"
+      },
+      "1211211" : {
+        "content" : "This was one hard shot to get! It took some very 'fly' photography...",
+        "choices" : [
+          {
+            "text" : "Let's go back to TaiWan.",
+            "nextId" : "1122300"
+          },
+          {
+            "text" : "Let's stay here for a bit.",
+            "nextId" : "6"
+          },
+          {
+            "text" : "How about somewhere else new.",
+            "nextId" : "4"
+          }
+        ],
+        "image" : "IMG_1988.JPG"
+      },
+      "4" : {
+        "content" : "Here's a shot from another island! Try and figure out which one.",
+        "choices" : [
+          {
+            "text" : "Let's see some of the local flora and fauna.",
+            "nextId" : "41"
+          },
+          {
+            "text" : "What's it look like further inland there?",
+            "nextId" : "43"
+          },
+          {
+            "text" : "What's the night time scenery like there?",
+            "nextId" : "42"
+          }
+        ],
+        "image" : "IMG_2432.jpg"
+      },
+      "41" : {
+        "content" : "Here's a flower I found just a mile or two off the coast.",
+        "choices" : [
+          {
+            "text" : "Let's see some other flowers.",
+            "nextId" : "411"
+          },
+          {
+            "text" : "Take me to DanShui.",
+            "nextId" : "1120000"
+          },
+          {
+            "text" : "This has been great, but I think I'm done looking at pictures for now.",
+            "nextId" : "9"
+          }
+        ],
+        "image" : "IMG_2188.JPG"
+      },
+      "411" : {
+        "content" : "Here's a flower from back in TaiBei.",
+        "choices" : [
+          {
+            "text" : "I'd like to see something a bit more definitive of TaiWan than random flowers.",
+            "nextId" : "4111"
+          },
+          {
+            "text" : "This has been great, but I think I'm done looking at pictures for now.",
+            "nextId" : "9"
+          }
+        ],
+        "image" : "IMG_0659.JPG"
+      },
+      "4111" : {
+        "content" : "This isn't much, but the best I got.",
+        "choices" : [
+          {
+            "text" : "Cool! Take me back to the other island now.",
+            "nextId" : "421"
+          },
+          {
+            "text" : "This has been great, but I think I'm done looking at pictures for now.",
+            "nextId" : "9"
+          }
+        ],
+        "image" : "IMG_0774.JPG"
+      },
+      "42" : {
+        "content" : "This place is quite a bit quieter than anywhere in TaiBei.",
+        "choices" : [
+          {
+            "text" : "Show me more of this place.",
+            "nextId" : "421"
+          },
+          {
+            "text" : "Let's see more of the waterline.",
+            "nextId" : "422"
+          },
+          {
+            "text" : "This has been great, but I think I'm done looking at pictures for now.",
+            "nextId" : "9"
+          }
+        ],
+        "image" : "A Lonely Night.JPG"
+      },
+      "421" : {
+        "content" : "A quiet road leads to a tranquil home further inland.",
+        "choices" : [
+          {
+            "text" : "I'm in the mood to see another sunset.",
+            "nextId" : "422"
+          },
+          {
+            "text" : "What kind of shopping centers they have here?",
+            "nextId" : "43"
+          },
+          {
+            "text" : "This has been great, but I think I'm done looking at pictures for now.",
+            "nextId" : "9"
+          }
+        ],
+        "image" : "IMG_2340.jpg"
+      },
+      "422" : {
+        "content" : "The sun sets over a quiet harbor.",
+        "choices" : [
+          {
+            "text" : "Awesome. Good photos, but I'm out!",
+            "nextId" : "9"
+          },
+          {
+            "text" : "I still wanna see more of this place.",
+            "nextId" : "43"
+          }
+        ],
+        "image" : "DocksWithLights.JPG"
+      },
+      "43" : {
+        "content" : "A small part of one of the world's largest outdoor shopping malls.",
+        "choices" : [
+          {
+            "text" : "I'd like to go back to TaiBei's shopping malls.",
+            "nextId" : "1213200"
+          },
+          {
+            "text" : "This has been great, but I think I'm done looking at pictures for now.",
+            "nextId" : "9"
+          }
+        ],
+        "image" : "IMG_2169.jpg"
+      },
+      "6" : {
+        "content" : "A sunset on the coast. I waited several hours in the cold to get this shot, but it was worth it!",
+        "choices" : [
+          {
+            "text" : "I'll look at another sunset please!",
+            "nextId" : "4"
+          },
+          {
+            "text" : "I'm all done with photos. Bye!",
+            "nextId" : "9"
+          }
+        ],
+        "image" : "Afterlight 5.JPG"
+      },
+      "9" : {
+        "content" : "Thanks for taking the time to check out our photos! If you would like to use any of our pictures, please visit our website at www.SunnySideWebConsultation.com to touch base with us.",
+        "choices" : [
+        ],
+        "image" : "IMG_1664.jpg"
+      }
+
+
 }
 }

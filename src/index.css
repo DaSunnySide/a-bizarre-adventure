@@ -1,7 +1,6 @@
 html {
-  font-family: source-code-pro, Georgia, "Georgia",
-    monospace;
-    text-shadow: -1px 1px #ffffff;
+    font-family: 'Georgia';
+    text-shadow: -1px 1px #ffff9f;
     font-size: 2vh;
 }
 
@@ -10,13 +9,18 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #ffffff;
+  color: #ffff9f;
   background-color: #141414;
 }
 
 code {
-  font-family: source-code-pro, Georgia, "Georgia",
-    monospace;
+    font-family: 'Georgia', sans-serif;
+}
+
+img {
+  height: 90vh;
+  width: 90vw;
+  border-radius: 5vh;
 }
 
 a {
@@ -28,18 +32,26 @@ ul {
   list-style: none;
   text-decoration: none;
 }
+.heading {
+  text-align: center;
+}
 
+.likeButton {
+  display: flex;
+  justify-content: space-around;
+}
 .App {
   text-align: center;
   background-position: center;
-  font-family: Georgia;
+  font-family: 'Georgia', sans-serif;;
 }
 
 .navigation {
+  justify-content: center;
   padding: 2vh;
   margin: 2vh;
   flex-direction: column;
-  border-color: #ffffff;
+  border-color: #ffff9f;
   border-top: 0px;
   border-bottom: 0px;
   border-left: 0px;
@@ -65,15 +77,41 @@ ul {
 
 .navigation li:hover {
   background-color: #141414;
-  color: #ffffff;
+  color: #ffff9f;
   border-top: 2px;
   border-bottom: 2px;
   border-left: 0px;
   border-right: 0px;
-  border-color: #ffffff;
+  border-color: #ffff9f;
   border-style: groove;
   text-shadow: -1px 1px #111111;
 }
+
+button {
+  display: flex;
+  justify-content: space-around;
+  color: #ffff9f;
+  background-color: #141414;
+  padding: 5vh 2.5vh 5vh 2.5vh;
+  margin: 3vw;
+  font-size: 5vh;
+  border-radius: 3vh;
+  border: none;
+  font-family: 'Georgia';
+}
+
+button:hover {
+  color: #141414;
+  background-color: #ffff9f;
+}
+
+button:disabled {
+  background-color: #4D60A3;
+   opacity: 0.6;
+  color: #ffff9f;
+
+}
+
 
 .form {
   background-color: inherit;
@@ -87,8 +125,8 @@ ul {
 .form input {
   margin: 2vh;
   background-color: #141414;
-  color: #ffffff;
-  font-size: 6vh;
+  color: #ffff9f;
+  font-size: 8vh;
   min-width: 95%;
   min-height: 8vh;
   text-align: center;
@@ -97,12 +135,12 @@ ul {
   border-bottom: 2px;
   border-left: 0px;
   border-right: 0px;
-  border-color: #ffffff;
+  border-color: #ffff9f;
   border-style: groove;
 }
 
 .form button {
-  font-size: 4vh;
+  font-size: 5vh;
   margin-top: 5vh;
   background-color: #141414;
   color: inherit;
@@ -111,14 +149,14 @@ ul {
   border-left: 0px;
   border-right: 0px;
   min-height: 5vh;
-  border-color: #ffffff;
+  border-color: #ffff9f;
 }
 
 .PasswordForgetPage {
   margin: 2vh;
   background-color: #141414;
-  color: #ffffff;
-  font-size: 6vh;
+  color: #ffff9f;
+  font-size: 8vh;
   justify-content: center;
   text-align: center;
 }
@@ -127,15 +165,15 @@ ul {
 .forgotPassword {
   margin: 2vh;
   background-color: #141414;
-  color: #ffffff;
-  font-size: 6vh;
+  color: #ffff9f;
+  font-size: 8vh;
   text-align: center;
   padding: 3vh;
   border-top: 2px;
   border-bottom: 2px;
   border-left: 0px;
   border-right: 0px;
-  border-color: #ffffff;
+  border-color: #ffff9f;
   border-style: groove;
 }
 
@@ -144,7 +182,7 @@ ul {
   min-height: 20%;
   font-size: 8vh;
   background-color: #141414;
-  color: #ffffff;
+  color: #ffff9f;
 }
 
 .forgotPassword button {
@@ -153,60 +191,43 @@ ul {
   min-height: 20%;
   width: inherit;
   background-color: #141414;
-  color: #ffffff;
+  color: #ffff9f;
   border: none;
   font-size: 8vh;
 }
 
 .forgotPassword button:hover {
-  background-color: #ffffff;
+  background-color: #ffff9f;
   color: #141414;
   border: none;
   text-size: 8vh;
 }
 
 .story {
-  align-items: center;
-  align-self: center;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   padding: 2vh 1vh 2vh 1vh;
-  font-size: calc(2px + 3vh);
+  font-size: 5vh;
   background-color: #141414;
   margin: 4vh;
-  text-decoration: none;
+  white-space: pre-line;
 }
 
 .choices {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-
-}
-
-.choices button {
-  padding: 5vh;
+  justify-content: space-around;
+  flex-direction: row;
+  font-size: 5vh;
   background-color: #141414;
-  color: #ffffff;
-  width: 25%;
-  min-height: 25%;
-  font-size: 4vh;
-  justify-content: center;
   margin: 4vh;
-  border: none;
-  border-radius: 3vh;
-  margin-bottom: 50vh;
+  text-decoration: none;
+  color: #ffff9f;
+  white-space: pre-line;
 }
 
-.choices button:hover {
-  cursor: grab;
-  color: #141414;
-  background-color: #ffffff;
-
-}
-
-.pageContent {
-  text-align: center;
-  font-family: Georgia;
-  color: inherit;
-  background-color: inherit;
+.image {
+  display: flex;
+  justify-content: center;
 }

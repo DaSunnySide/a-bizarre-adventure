@@ -3,12 +3,12 @@ import 'firebase/auth';
 import 'firebase/database';
 
 var config = {
-    apiKey: "AIzaSyB4WSN1xpkGZcbRe2XcVH5jOlbFBHXEx7w",
-    authDomain: "the-helping-hand-6e3a0.firebaseapp.com",
-    databaseURL: "https://the-helping-hand-6e3a0.firebaseio.com",
-    projectId: "the-helping-hand-6e3a0",
-    storageBucket: "the-helping-hand-6e3a0.appspot.com",
-    messagingSenderId: "1086737653439"
+  apiKey: "AIzaSyAhuklgssTSN902BHdVg2qTYEWZpkCT0sw",
+  authDomain: "joejoe-s-bizarre-adventure.firebaseapp.com",
+  databaseURL: "https://joejoe-s-bizarre-adventure.firebaseio.com",
+  projectId: "joejoe-s-bizarre-adventure",
+  storageBucket: "joejoe-s-bizarre-adventure.appspot.com",
+  messagingSenderId: "270527999695"
   };
 
 class Firebase {
