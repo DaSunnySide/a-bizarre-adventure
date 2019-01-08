@@ -13,18 +13,18 @@
     "image" : "AZ Style Sunset.JPG"
     },
     "1100000" : {
-        "content" : "Taken from a bridge over a river in TaiBei most famous for its daily feature of the 'MotorCycle Waterfall', this photo overlooks one of the smaller districts in the TaiBei downtown.",
+        "content" : "This photo was taken on a bridge famous for its so-called 'motor-cycle waterfall.' Every day after work, as tens of thousands of employees hit the streets, countless motor-cycle drivers take to the road. Motor-cycles and mopeds are extremely popular in TaiBei, creating an effect such that, on looking out over the roads, the myriad waves of cyclists give the illusion of one massive wave. As this tsunami of traffic makes its way over the bridge, and the steep descent on either side, it makes for a magnificent sight that attracts tourists from many countries.",
         "choices" : [
           {
-          "text" : "Let's see more of the city!",
+          "text" : "Explore the city.",
           "nextId" : "1110000"
         },
         {
-          "text" : "Show me some of that TaiWan suburbia.",
+          "text" : "Check out the TaiWan suburbia",
           "nextId" : "1120000"
         },
         {
-          "text" : "How about some wild life instead?",
+          "text" : "Visit the local wildlife",
           "nextId" : "1130000"
         }
       ],
@@ -32,7 +32,7 @@
       },
 
       "1110000" : {
-        "content" : "Before you look any more at the city, make sure you follow the house rules! \n\n This sign shows some of the importance of knowing what you're communicating, understanding your target audience, and most importantly, understanding the cultural differences in client bases, because sometimes it’s easy for stuff to get lost in translation!",
+        "content" : "Before you look any more at the city, make sure you follow the house rules! \n\n Signs like this can be found all over China and TaiWan. While catering to English speaking tourists through these thoughtfully placed signs, poor translations often lead to a few...misunderstandings. Warning signs and museum exhibits aren't the only place you'll see these sorts of miscommunications. Shopping malls are littered with clothes reading everything from 'Carpetbag in things I hoped you packed your STTW' on casual lounge wear to 'What the F?' on more formal business attire! I think my personal favorite was a sign warning passerby's not to walk on the grass, but instead of saying, 'stay off the grass,' it read, 'Please do not trample.' ",
         "choices" : [
           {
           "text" : "I'm in for a laugh. Show me some more signs!",
@@ -51,7 +51,7 @@
     },
 
     "1112000" : {
-      "content" : "A quick glimpse of TaiBei's beautiful downtown scenery.",
+      "content" : "As a small island nation with a population around three times that of Utah, TaiWan is extremely developed. TaiBei in particular is a massive city, with an outrageously high population density. Because of the constraint on open development space in TaiWan, much of TaiWan looks like this, with roads surrounded by highrises so tall you can barely see the sky.",
       "choices" : [
         {
         "text" : "Go towards that tower in the background.",
@@ -69,7 +69,7 @@
     "image" : "fork in the road.JPG"
   },
     "1112100" : {
-      "content" : "As you're walking up to the tower, you'll probably notice this peculiar building...",
+      "content" : "The architecture in TaiWan is stunning, featuring a sleek modern style with elements of classic architectural influence. Wherever you look, you're sure to see at least a handful of unique and stylish buildings. Here's one of my personal favorites!",
       "choices" : [
         {
         "text" : "Ok. Now let's get to the tower.",
@@ -87,7 +87,7 @@
     "image" : "IMG_0657.jpg"
   },
     "1112110" : {
-      "content" : "Also lovingly referred to as the To-Go Box tower, architects constructed the TaiBei 101 to look like stacks of ancient money boxes.",
+      "content" : "Also lovingly referred to as the To-Go Box tower, architects constructed the TaiBei 101 to look like stacks of ancient money boxes. The 101 has some of the fastest elevators in the world to make the ascent up its 101 floors much more manageable, and over the years these elevators have gone through numerous cables. In the spirit of environmental mindfulness, the front of the tower features a metal sculpture, an 'embryo' born from these used cables.",
       "choices" : [
         {
         "text" : "Let's head to the top!",
@@ -105,7 +105,7 @@
     "image" : "101.JPG"
   },
       "1112120" : {
-        "content" : "This smiley face-looking shopping mall is home to one of TaiWan's largest tech centers!",
+        "content" : "Companies such as MicroStar International have garnered TaiWan a well-earned place a the forefront of the computer industry, and TaiWan has been well known for it's technological prowess. It just so happens that this smiley face-looking shopping mall is home to one of TaiWan's largest tech centers. Inside, you'll find floor after floor of electronic sales, computer stores, lens and optics vendors, as well as a convenient food court on the first floor.",
         "choices" : [
           {
           "text" : "Cool! What about more suburban architecture?",
@@ -123,7 +123,7 @@
       "image" : "IMG_0684.jpg"
     },
     "1112200" : {
-      "content" : "In recent years, bikes and mopeds have become extremely popular in TaiWan. In fact, they are so commonly used, that there is a traffic phenomenon known as the 'Motor-cycle waterfall' that is so well known that it attracts tourists from other countries.",
+      "content" : "Here, you can see a few of the mopeds so famous and overwhelmingly popular in TaiWan. The amazing gas mileage and cheap costs of the mopeds makes them extremely convenient for city use, and the small size makes it easy to snag a parking spot wherever you go.",
       "choices" : [
         {
         "text" : "Show me more bikes!",
@@ -141,7 +141,7 @@
     "image" : "IMG_0189.JPG"
   },
     "1112210" : {
-      "content" : "More bikes!",
+      "content" : "The first picture couldn't really ever portray just how popular the bikes and mopeds are in TaiWan, and this one can't either. But, at any rate, here are some more bikes!",
       "choices" : [
         {
         "text" : "Let's see other modes of transportation",
@@ -159,7 +159,7 @@
     "image" : "ZiXingChe.JPG"
   },
     "1112211" : {
-      "content" : "A TaiWanese victory train!",
+      "content" : "A TaiWanese victory train! The rail system in TaiBei is absurdly convenient, with enough trains on most of the routes so you never have to wait more than a few minutes to catch a ride, pricing fair enough so it's much more affordable than a car, or even a moped, and routes that cover the vast majority of anywhere you could need to go.",
       "choices" : [
         {
         "text" : "Follow the train.",
@@ -177,7 +177,7 @@
     "image" : "IMG_1258.JPG"
   },
     "1112220" : {
-      "content" : "It does look like it's getting dark. Maybe this would be a good time to check out the famous night markets?",
+      "content" : "If you haven't heard of them yet, the TaiWanese night markets are famous across the world for their large assortment of quality goods, both hand-crafted and mass produced, as well as food that's truly to die for. It looks like it's getting dark, so maybe this would be a good time to check out the world-renowned night markets?",
       "choices" : [
         {
         "text" : "Sounds good, let's go shopping!",
@@ -195,7 +195,7 @@
     "image" : "IMG_0786.JPG"
   },
     "1112230" : {
-      "content" : "Here's a plant found growing in DanShui.",
+      "content" : "Here's a plant found growing in DanShui. As a coastal suburb in a region spared from any harsh Winters, DanShui's plant life can be found easily year round. TaiWan as a whole is full of beautiful and memorable flora nad fauna, with beautiful plants like this around every corner. This particular flower just happens to be one of my personal favorites.",
       "choices" : [
         {
         "text" : "Show me another!",
@@ -361,7 +361,12 @@
         "image" : "IMG_1372.jpg"
       },
       "1310000" : {
-        "content" : "This is without a doubt the liveliest shopping center I've ever been to. Aside from hundreds of small stores and outlets, plethoras of vendors bring hand made items to sell on the street, where you'll easily find whatever mouth-watering food, stylish clothes, or random knick-knacks you could ever possibly want. One of my favorite memories of TaiWan was just wandering around the Night Market for hours, browsing through the endless streets full of stores.",
+        "content" : "As a traveler that likes to experience local culture everywhere I go, I'd like to start this with a full disclosure. I know it probably seems fairly tacky to go to another country, especially one with such refined and exquisite cuisine, and promptly proceed to track down the nearest Golden Arches. And so I feel obligated to inform you, the reader, that despite my love for experiencing new cuisines and expanding my culinary pallette, I still get a lot of joy out of seeing how my home culture translates to other countries. America is a big place, with a lot of variety from 
+
+        Here, you can bear witness to one of the finest burgers ever crafted.
+
+
+        This is without a doubt the liveliest shopping center I've ever been to. Aside from hundreds of small stores and outlets, plethoras of vendors bring hand made items to sell on the street, where you'll easily find whatever mouth-watering food, stylish clothes, or random knick-knacks you could ever possibly want. One of my favorite memories of TaiWan was just wandering around the Night Market for hours, browsing through the endless streets full of stores.",
         "choices" : [
           {
             "text" : "What kind of food do the vendors have?",
@@ -533,7 +538,7 @@
           },
           {
             "text" : "I feel like I've seen enough of DanShui. What's the coastline like?",
-            "nextId" : "11223112"
+            "nextId" : "1320000"
           }
         ],
         "image" : "IMG_0134.JPG"
@@ -629,6 +634,24 @@
           }
         ],
         "image" : "IMG_0410.JPG"
+      },
+      "1211110" : {
+        "content" : "Where's Waldo?!?",
+        "choices" : [
+          {
+            "text" : "Let's see a beach!",
+            "nextId" : "4"
+          },
+          {
+            "text" : "Let's look at some plants!",
+            "nextId" : "1112230"
+          },
+          {
+            "text" : "Is that a train down there?",
+            "nextId" : "1211200"
+          }
+        ],
+        "image" : "IMG_0425.JPG"
       },
       "1211200" : {
         "content" : "The railway in TaiBei runs next to the river for a large portion of the ride, making for a beautiful route. ",
@@ -823,7 +846,7 @@
         "image" : "Afterlight 5.JPG"
       },
       "9" : {
-        "content" : "Thanks for taking the time to check out our photos! If you would like to use any of our pictures, please visit our website at www.SunnySideWebConsultation.com to touch base with us.",
+        "content" : "Thanks for taking the time to check out our photos! Sunny Side Web Consultation offers photography services as part of company image branding and ",
         "choices" : [
         ],
         "image" : "IMG_1664.jpg"

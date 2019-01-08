@@ -13,11 +13,13 @@ Known Issues:
 
 To Do:
   -User page needs a custom photo gallery-current plan is to enable like button on login, and then store liked images to a user specific array. The page then parses through the array and displays all content on screen. Potentially add an option to modify precedence of pictures to make most popular pictures float to top of the screen
-  -
-
-
-
-
+  -Home page needs information about how to use the site and it's purpose with some sort of customized greeting
+  -add global like variable for later data analysis purposes
+  -add fields to user information
+  -fix css on images
+  -add device specific css, especially for images
+  -Look at integrating a node.js server for better performance
+***************************************************************************************************************************
 0.1.1 A simple photo gallery you can peruse through if you want. Currently just in the initial release.
 Features in progress:
   -like buttons tied to personal photo gallery within user ACCOUNT

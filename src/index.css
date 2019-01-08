@@ -40,6 +40,12 @@ ul {
   display: flex;
   justify-content: space-around;
 }
+
+.pageBody {
+  display: flex;
+  justify-content: space-around;
+  color: #ffff9f;
+}
 .App {
   text-align: center;
   background-position: center;
