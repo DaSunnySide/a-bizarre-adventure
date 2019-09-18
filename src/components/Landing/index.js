@@ -3,6 +3,7 @@ import Story from '../../Story/Story.json';
 import Chapter from '../../Story/Chapter.js';
 import ChoiceButton from '../ChoiceButtons';
 import LikeButton from '../LikeButton';
+import fetch from 'isomorphic-fetch';
 
 class Landing extends Component {
   constructor(props) {

@@ -15,34 +15,38 @@ const Navigation = () => (
 );
 
 const NavigationAuth = () => (
-  <ul>
-    <li>
-      <Link to={ROUTES.LANDING}>The album!</Link>
-    </li>
-    <li>
-      <Link to={ROUTES.HOME}>Home</Link>
-    </li>
-    <li>
-      <Link to={ROUTES.ACCOUNT}>My Account</Link>
-    </li>
-    <li>
-      <Link to={ROUTES.ADMIN}>Admin</Link>
-    </li>
-    <li>
-      <SignOutButton />
-    </li>
-  </ul>
+  <div className="navigationList">
+    <ul>
+      <li>
+        <Link to={ROUTES.LANDING}>The album!</Link>
+      </li>
+      <li>
+        <Link to={ROUTES.HOME}>Home</Link>
+      </li>
+      <li>
+        <Link to={ROUTES.ACCOUNT}>My Account</Link>
+      </li>
+      <li>
+        <Link to={ROUTES.ADMIN}>Admin</Link>
+      </li>
+      <li>
+        <SignOutButton />
+      </li>
+    </ul>
+  </div>
 );
 
 const NavigationNonAuth = () => (
-  <ul>
-    <li>
-      <Link to={ROUTES.LANDING}>The album!</Link>
-    </li>
-    <li>
-      <Link to={ROUTES.SIGN_IN}>Sign In for full features.</Link>
-    </li>
-  </ul>
+  <div className="navigationList">
+    <ul>
+      <li>
+        <Link to={ROUTES.LANDING}>The album!</Link>
+      </li>
+      <li>
+        <Link to={ROUTES.SIGN_IN}>Sign In for full features.</Link>
+      </li>
+    </ul>
+  </div>
 );
 
 export default Navigation;

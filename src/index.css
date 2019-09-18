@@ -42,8 +42,7 @@ ul {
 }
 
 .pageBody {
-  display: flex;
-  justify-content: space-around;
+  display: block;
   color: #ffff9f;
 }
 .App {
